@@ -1,0 +1,9 @@
+### Missing 3D models - created on 2026-07-10 17:25
+### Printed by checking_3D_models plugin
+Board file: /home/islam-tarek-moawad/Documents/learn/PCB/summer training/voltameter/voltameter.kicad_pcb
+3D missing models written to:
+/home/islam-tarek-moawad/Documents/learn/PCB/summer training/voltameter/voltameter_missing3Dmodels.txt
+-------
+-------
+NUM of 3D missing models:0
+checked extensions ['.stp', '.step', '.stpZ']
