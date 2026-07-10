@@ -1941,6 +1941,12 @@
 		)
 	)
 	(junction
+		(at 107.95 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "075dbccd-2d17-4e2f-b7cb-19e58a379f0d")
+	)
+	(junction
 		(at 186.69 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2043,12 +2049,6 @@
 		(uuid "b84fbf64-6834-40fe-a0bc-c98a14327a12")
 	)
 	(junction
-		(at 107.95 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc88c48f-31d8-462e-8094-20ae11895136")
-	)
-	(junction
 		(at 128.27 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2105,6 +2105,16 @@
 			(type default)
 		)
 		(uuid "0837019a-a956-45fe-8070-61f3758898e3")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09397c1e-488f-4e52-8e5f-ba7c07b239d3")
 	)
 	(wire
 		(pts
@@ -2265,16 +2275,6 @@
 			(type default)
 		)
 		(uuid "41820b69-4fea-43b3-9b9e-2d27edb507b1")
-	)
-	(wire
-		(pts
-			(xy 107.95 101.6) (xy 107.95 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a84096f-f1ba-48ca-ae97-0493c34d5be0")
 	)
 	(wire
 		(pts
@@ -3654,7 +3654,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 102.87 101.6 180)
+		(at 102.87 99.06 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3662,10 +3663,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81b60527-f793-4c5d-ae22-5c9e70ca459e")
 		(property "Reference" "J1"
-			(at 102.87 92.71 0)
+			(at 102.87 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +3676,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 102.87 95.25 0)
+			(at 102.87 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 102.87 101.6 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 101.6 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +3709,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 101.6 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
